@@ -135,6 +135,7 @@ h2 {
 .flower_block {
   position: relative;
   width: 475px;
+  height: 658px;
   margin: 0 auto;
 }
 
@@ -142,6 +143,7 @@ h2 {
   transition: all 2s ease-out 0s;
   margin-left: 95px;
   width: inherit;
+  height: inherit;
 }
 
 .flower_block__flower--hide {
