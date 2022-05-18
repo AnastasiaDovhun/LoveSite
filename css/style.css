@@ -115,26 +115,27 @@ h2 {
 .logo__love {
   top: 49%;
   left: 10%;
-  transform: translateY(-50%);
+  transform: translate(0%, -50%);
 }
 
 .logo__love--left {
-  left: -100%;
+  transform: translate(-1000%, -50%);
 }
 
 .logo__you {
   top: 63%;
   right: 16%;
-  transform: translateY(-50%);
+  transform: translate(0, -50%);
 }
 
 .logo__you--right {
-  right: -100%;
+  transform: translate(1000%, -50%);
 }
 
 .flower_block {
   position: relative;
   width: 475px;
+  height: 658px;
   margin: 0 auto;
 }
 
@@ -142,6 +143,7 @@ h2 {
   transition: all 2s ease-out 0s;
   margin-left: 95px;
   width: inherit;
+  height: inherit;
 }
 
 .flower_block__flower--hide {
@@ -274,6 +276,7 @@ h2 {
 
   .flower_block {
     width: 350px;
+    height: 485px;
   }
 
   .flower_block__flower {
